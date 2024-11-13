@@ -1,0 +1,15 @@
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\bin\Debug\Csharp_1.exe.config
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\bin\Debug\Csharp_1.exe
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\bin\Debug\Csharp_1.pdb
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.csproj.AssemblyReference.cache
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form1.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Properties.Resources.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.csproj.GenerateResource.cache
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.csproj.CoreCompileInputs.cache
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.exe
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.pdb
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form2.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form3.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form4.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form5.resources
+C:\Users\Nathishma.SWT-LTOP-465\source\repos\Csharp_1\obj\Debug\Csharp_1.Form6.resources
