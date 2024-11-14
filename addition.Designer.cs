@@ -1,6 +1,6 @@
 ﻿namespace Csharp_1
 {
-    partial class Form1
+    partial class addition
     {
         /// <summary>
         /// Required designer variable.
@@ -18,41 +18,40 @@
             this.txtNumber2 = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
-
             this.SuspendLayout();
-
             // 
             // txtNumber1
             // 
             this.txtNumber1.Location = new System.Drawing.Point(50, 50);
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(200, 22);
-
+            this.txtNumber1.TabIndex = 0;
+            this.txtNumber1.TextChanged += new System.EventHandler(this.txtNumber1_TextChanged);
             // 
             // txtNumber2
             // 
             this.txtNumber2.Location = new System.Drawing.Point(50, 100);
             this.txtNumber2.Name = "txtNumber2";
             this.txtNumber2.Size = new System.Drawing.Size(200, 22);
-
+            this.txtNumber2.TabIndex = 1;
             // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(50, 150);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-
             // 
             // lblResult
             // 
             this.lblResult.Location = new System.Drawing.Point(50, 200);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(200, 22);
+            this.lblResult.TabIndex = 3;
             this.lblResult.Text = "Result:";
-
             // 
             // Form1
             // 
@@ -68,6 +67,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
 

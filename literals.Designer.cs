@@ -1,6 +1,6 @@
 ﻿namespace Csharp_1
 {
-    partial class Form4
+    partial class literals
     {
         /// <summary>
         /// Required designer variable.

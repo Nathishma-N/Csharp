@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace Csharp_1
 {
-    public partial class Form2 : Form
+    public partial class datatypes : Form
     {
 
-        public Form2()
+        public datatypes()
         {
             InitializeComponent();
         }
@@ -45,6 +45,11 @@ namespace Csharp_1
 
             // Display the formatted string in the TextBox
             txtOutput.Text = output;
+        }
+
+        private void txtOutput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

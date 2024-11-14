@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Csharp_1
 {
-    public partial class Form5 : Form
+    public partial class operators : Form
     {
-        public Form5()
+        public operators()
         {
             InitializeComponent();
         }
@@ -34,6 +34,11 @@ namespace Csharp_1
 
             result = (x % y);
             txtOutput.Text += "Modulo Operator: " + result + Environment.NewLine;
+        }
+
+        private void txtOutput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

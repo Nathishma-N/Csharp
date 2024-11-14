@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Csharp_1
 {
-    public partial class Form3 : Form
+    public partial class variables : Form
     {
-        public Form3()
+        public variables()
         {
             InitializeComponent();
         }
@@ -38,7 +38,12 @@ namespace Csharp_1
         // Declare a TextBox (txtOutput) in Form3
         private TextBox txtOutput;
 
+        private void txtOutput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         // Initialize the components and add the TextBox for output
-        
+
     }
 }

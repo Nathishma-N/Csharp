@@ -46,62 +46,98 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classandobjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classandobjects.Designer.cs">
+      <DependentUpon>Classandobjects.cs</DependentUpon>
+    </Compile>
     <Compile Include="CodeFile1.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="addition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="addition.Designer.cs">
+      <DependentUpon>addition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Constructor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Constructor.Designer.cs">
+      <DependentUpon>Constructor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="datatypes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="datatypes.Designer.cs">
+      <DependentUpon>datatypes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="variables.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="variables.Designer.cs">
+      <DependentUpon>variables.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="literals.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="literals.Designer.cs">
+      <DependentUpon>literals.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="operators.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="operators.Designer.cs">
+      <DependentUpon>operators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keywords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keywords.Designer.cs">
+      <DependentUpon>keywords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Decisionmaking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decisionmaking.Designer.cs">
+      <DependentUpon>Decisionmaking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jumbstatements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jumbstatements.Designer.cs">
+      <DependentUpon>Jumbstatements.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="addition.resx">
+      <DependentUpon>addition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Classandobjects.resx">
+      <DependentUpon>Classandobjects.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Constructor.resx">
+      <DependentUpon>Constructor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="datatypes.resx">
+      <DependentUpon>datatypes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="variables.resx">
+      <DependentUpon>variables.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="literals.resx">
+      <DependentUpon>literals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operators.resx">
+      <DependentUpon>operators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keywords.resx">
+      <DependentUpon>keywords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Decisionmaking.resx">
+      <DependentUpon>Decisionmaking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jumbstatements.resx">
+      <DependentUpon>Jumbstatements.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Csharp_1
 {
-    public partial class Form1 : Form
+    public partial class addition : Form
     {
-        public Form1()
+        public addition()
         {
             InitializeComponent();
         }
@@ -39,9 +39,14 @@ namespace Csharp_1
         private void btnOpenForm2_Click(object sender, EventArgs e)
         {
             // Create an instance of Form2
-            Form2 form2 = new Form2();
+            datatypes form2 = new datatypes();
             // Show Form2
             form2.Show();
+        }
+
+        private void txtNumber1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Csharp_1
 {
-    partial class Form3
+    partial class variables
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,18 @@
         {
             this.txtOutput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-
-            // txtOutput settings
+            // 
+            // txtOutput
+            // 
             this.txtOutput.Location = new System.Drawing.Point(50, 50);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.Size = new System.Drawing.Size(300, 150);
             this.txtOutput.TabIndex = 0;
-
-            // Form3 settings
+            this.txtOutput.TextChanged += new System.EventHandler(this.txtOutput_TextChanged);
+            // 
+            // Form3
+            // 
             this.ClientSize = new System.Drawing.Size(400, 250);
             this.Controls.Add(this.txtOutput);
             this.Name = "Form3";
@@ -46,6 +49,7 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

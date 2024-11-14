@@ -1,6 +1,6 @@
 ﻿namespace Csharp_1
 {
-    partial class Form5
+    partial class operators
     {
         private System.Windows.Forms.TextBox txtOutput;
 
@@ -16,6 +16,7 @@
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.Size = new System.Drawing.Size(300, 150);
             this.txtOutput.TabIndex = 0;
+            this.txtOutput.TextChanged += new System.EventHandler(this.txtOutput_TextChanged);
             // 
             // Form5
             // 
@@ -26,6 +27,7 @@
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

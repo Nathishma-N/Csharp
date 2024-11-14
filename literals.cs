@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Csharp_1
 {
-    public partial class Form4 : Form
+    public partial class literals : Form
     {
-        public Form4()
+        public literals()
         {
             InitializeComponent();
         }
